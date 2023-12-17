@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "970433240045",
+    "firebase_url": "https://azil-620be-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "azil-620be",
+    "storage_bucket": "azil-620be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970433240045:android:506156d8e631fc10e5e5e4",
+        "android_client_info": {
+          "package_name": "com.activity.vuv_azil"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyNyHDrmVllyym2VUUpjaoEE9Jl3n6nDI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
