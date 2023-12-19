@@ -84,7 +84,7 @@ public class RegistrationActivity extends AppCompatActivity {
             return;
         }
         if (userPassword.length() < 6){
-            Toast.makeText(this, "Dužina lozinke mora biti duža od 6 slova", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Dužina lozinke mora biti veća od 6 slova", Toast.LENGTH_SHORT).show();
             return;
         }
 
