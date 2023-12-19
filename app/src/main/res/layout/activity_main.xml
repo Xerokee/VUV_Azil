@@ -33,7 +33,7 @@
        android:id="@+id/imageView"
        android:layout_width="300dp"
        android:layout_height="300dp"
-       android:src="@mipmap/getaapet"
+       android:src="@mipmap/petshop"
        app:layout_constraintBottom_toBottomOf="parent"
        app:layout_constraintEnd_toEndOf="parent"
        app:layout_constraintStart_toStartOf="parent"
