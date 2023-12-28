@@ -1,4 +1,4 @@
-package com.activity.vuv_azil.Models;
+package com.activity.vuv_azil.models;
 
 public class UserModel {
     String name;

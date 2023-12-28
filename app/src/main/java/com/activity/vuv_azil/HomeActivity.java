@@ -1,26 +1,23 @@
 package com.activity.vuv_azil;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentTransaction;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ProgressBar;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 
-public class MainActivity extends AppCompatActivity {
+public class HomeActivity extends AppCompatActivity {
 
     ProgressBar progressBar;
     FirebaseAuth auth;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_home);
 
         auth = FirebaseAuth.getInstance();
         progressBar = findViewById(R.id.progressbar);
@@ -31,10 +28,10 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     public void login(View view){
-        startActivity(new Intent(MainActivity.this,LoginActivity.class));
+        startActivity(new Intent(HomeActivity.this,LoginActivity.class));
     }
 
     public void registration(View view){
-        startActivity(new Intent(MainActivity.this,RegistrationActivity.class));
+        startActivity(new Intent(HomeActivity.this,RegistrationActivity.class));
     }
 }
